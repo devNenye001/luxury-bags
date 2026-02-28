@@ -43,6 +43,7 @@ const Home = () => {
 
   return (
     <div className="container">
+      
       <Motion.div variants={container} initial="hidden" animate="show" className="card-wrapper">
         
         {/* Profile Section */}
@@ -102,7 +103,7 @@ const Home = () => {
         <Motion.footer variants={item} className="footer-text">
           Exclusive Quality & Style
         </Motion.footer>
-      </Motion.div>
+      </Motion.div> 
     </div>
   );
 };
